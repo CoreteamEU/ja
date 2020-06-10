@@ -37,9 +37,9 @@ $portrait: url(../img/juris.andersons.jpg);
 // Text color
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
-    @return #000;
+    @return rgb(75, 75, 75);
   } @else {
-    @return #fff;
+    @return rgb(238, 238, 238);
   }
 }
 
