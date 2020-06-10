@@ -16,15 +16,10 @@ function toggleMenu() {
   } else {
     menuBtn.classList.add("close");
   }
-  menu.classList;
-  toggle(menu);
-  toggle(menuNav);
-  toggle(menuBranding);
-  navItems.forEach((item) => {
-    toggle(item);
-  });
-
+  [menu, menuNav, menuBranding].forEach((itm) => toggle(itm));
+  navItems.forEach((item) => toggle(item));
   showMenu = !showMenu;
+  // something
 }
 
 function toggle(node: Element) {
