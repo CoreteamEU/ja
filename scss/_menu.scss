@@ -29,7 +29,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0; // bottom only
-    background: white;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 }
@@ -82,7 +82,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/juris.andersons.jpg);
+      background: $portrait;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
@@ -108,7 +108,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: white;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
     &:hover {
