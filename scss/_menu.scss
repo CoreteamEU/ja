@@ -38,7 +38,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.95;
   visibility: hidden;
 
   &.show {
@@ -69,5 +69,57 @@
       // slide in from top
       transform: translate3d(0, 0, 0);
     }
+  }
+
+  &-branding {
+    background: $primary-color;
+    transform: translate3d(0, 100%, 0); // remove from screen
+    @include easeOut;
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+
+    .portrait {
+      width: 250px;
+      height: 250px;
+      background: url(../img/juris.andersons.jpg);
+      border-radius: 50%;
+      border: solid 3px $secondary-color;
+    }
+  }
+
+  .nav-item {
+    transform: translate3d(600px, 0, 0);
+    @include easeOut;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+
+    &.current > a {
+      color: $secondary-color;
+    }
+  }
+
+  .nav-link {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    @include easeOut;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+} // eof .menu
+
+// Delay each slide menu item
+@for $x from 1 through 4 {
+  .nav-item:nth-child(#{$x}) {
+    transition-delay: 0.1s * $x;
   }
 }

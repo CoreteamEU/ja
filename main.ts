@@ -19,7 +19,6 @@ function toggleMenu() {
   [menu, menuNav, menuBranding].forEach((itm) => toggle(itm));
   navItems.forEach((item) => toggle(item));
   showMenu = !showMenu;
-  // something
 }
 
 function toggle(node: Element) {
