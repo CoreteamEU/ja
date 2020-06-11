@@ -1,4 +1,4 @@
-import { footer } from "./footer";
+import { footer } from "./footer.js";
 
 const main = () => {
   const menuBtn = document.querySelector(".menu-btn")!;
