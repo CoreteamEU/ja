@@ -63,6 +63,13 @@ main {
     }
   }
 
+  .coreteam {
+    background: url(../img/coreteam_small.png);
+    width: 100px;
+    height: 100px;
+    //display: inline-block;
+  }
+
   &#home {
     overflow: hidden;
     h1 {
