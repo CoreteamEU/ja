@@ -18,8 +18,6 @@ export const menuItems = (current: IPage, pages: IPage[]) => {
     return;
   }
 
-  //const links = ["index.html", "about.html"];
-
   pages.forEach((item) => {
     let li = document.createElement("li");
     li.className = current.url == item.url ? "nav-item current" : "nav-item";
