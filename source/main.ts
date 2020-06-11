@@ -1,6 +1,10 @@
-import { footer } from "./footer.js";
+import { footer, menuIcons } from "./footer.js";
 
 const main = () => {
+  var path = window.location.pathname;
+  var page = path.split("/").pop()!;
+  menuIcons(page);
+
   const menuBtn = document.querySelector(".menu-btn")!;
   const menu = document.querySelector(".menu")!;
   const menuBranding = document.querySelector(".menu-branding")!;
