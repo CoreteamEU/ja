@@ -5,7 +5,7 @@ const pages: Page[] = [
   new Page("index.html", "Home"),
   new Page("about.html", "About"),
   new Page("work.html", "Work"),
-  new Page("jobs.html", "Jobs"),
+  new Page("contact.html", "Contact"),
 ];
 
 const main = () => {
