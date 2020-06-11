@@ -1,9 +1,19 @@
+import { Page, IPage } from "./interfaces.js";
 import { footer, menuIcons } from "./footer.js";
 
 const main = () => {
+  const pages: Page[] = [
+    new Page("index.html", "Home"),
+    new Page("about.html", "About"),
+  ];
+
   var path = window.location.pathname;
-  var page = path.split("/").pop()!;
-  menuIcons(page);
+  var pageURL = path.split("/").pop()!;
+  let found = pages.filter((item) => {
+    console.log(item);
+    return item.url == pageURL;
+  })[0]!;
+  menuIcons(found, pages);
 
   const menuBtn = document.querySelector(".menu-btn")!;
   const menu = document.querySelector(".menu")!;

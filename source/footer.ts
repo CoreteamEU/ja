@@ -1,3 +1,5 @@
+import { Page, IPage } from "./interfaces.js";
+
 export const footer = () => {
   console.log("Footer run");
   //footerDiv.textContent = "No copyrights " + new Date().getFullYear();
@@ -8,58 +10,24 @@ export const footer = () => {
   }
 };
 
-export const menuIcons = (current: String) => {
+export const menuIcons = (current: IPage, pages: IPage[]) => {
   const ul = document.querySelector(".menu-nav")!;
+  console.log("--- menuIcons() current Page:", current);
   console.log("--- menuIcons() ul:", ul);
   if (ul == null) {
     return;
   }
 
-  // let initialHTML = new HTMLElement();
-  // initialHTML.innerHTML = `
-  //     <li class="nav-item current">
-  //       <a href="index.html" class="nav-link"> Home </a>
-  //     </li>
-  //     <li class="nav-item">
-  //       <a href="about.html" class="nav-link"> About </a>
-  //     </li>
-  //     <li class="nav-item">
-  //       <a href="/work.html" class="nav-link"> Work </a>
-  //     </li>
-  //     <li class="nav-item">
-  //       <a href="/contact.html" class="nav-link"> Contact </a>
-  //     </li>
-  //   `;
+  //const links = ["index.html", "about.html"];
 
-  // let allNavItems = initialHTML.querySelectorAll(".nav-item");
-  // allNavItems.forEach((item) => {
-  //   console.log(item);
-  // });
-  const links = ["index.html", "about.html"];
-
-  links.forEach((item) => {
+  pages.forEach((item) => {
     let li = document.createElement("li");
-    li.className = current == item ? "nav-item current" : "nav-item";
+    li.className = current.url == item.url ? "nav-item current" : "nav-item";
     let aa = document.createElement("a");
-    aa.href = item;
+    aa.href = item.url;
     aa.className = "nav-link";
-    aa.innerText = "Linkkk";
+    aa.innerText = item.title;
     li.appendChild(aa);
     ul.appendChild(li);
   });
-
-  // ul.innerHTML = `
-  //   <li class="nav-item current">
-  //     <a href="index.html" class="nav-link"> Home </a>
-  //   </li>
-  //   <li class="nav-item">
-  //     <a href="about.html" class="nav-link"> About </a>
-  //   </li>
-  //   <li class="nav-item">
-  //     <a href="/work.html" class="nav-link"> Work </a>
-  //   </li>
-  //   <li class="nav-item">
-  //     <a href="/contact.html" class="nav-link"> Contact </a>
-  //   </li>
-  // `;
 };
