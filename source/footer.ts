@@ -10,7 +10,7 @@ export const footer = () => {
   }
 };
 
-export const menuIcons = (current: IPage, pages: IPage[]) => {
+export const menuItems = (current: IPage, pages: IPage[]) => {
   const ul = document.querySelector(".menu-nav")!;
   console.log("--- menuIcons() current Page:", current);
   console.log("--- menuIcons() ul:", ul);
@@ -30,4 +30,21 @@ export const menuIcons = (current: IPage, pages: IPage[]) => {
     li.appendChild(aa);
     ul.appendChild(li);
   });
+};
+
+export const social = () => {
+  let icons = document.querySelector(".icons")!;
+  icons.innerHTML = `<a href="#!">
+    <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+    <a href="http://coreteam.eu"><span class="coreteam"></span></a>
+    <a href="#!">
+    <i class="fab fa-youtube fa-2x"></i>
+    </a>
+    <a href="#!">
+    <i class="fab fa-soundcloud fa-2x"></i>
+    </a>
+    <a href="#!">
+    <i class="fab fa-twitter fa-2x"></i>
+    </a>`;
 };
