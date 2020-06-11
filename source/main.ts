@@ -9,11 +9,13 @@ const pages: Page[] = [
 ];
 
 const main = () => {
-  var path = window.location.pathname;
-  var pageURL = path.split("/").pop()!;
+  // var path = window.location.pathname;
+  // var pageURL = path.split("/").pop()!;
+  let unitName = document.querySelector("meta[unitname]")!;
+
   let found = pages.filter((item) => {
     console.log(item);
-    return item.url == pageURL;
+    return item.url == unitName.getAttribute("unitname");
   })[0]!;
 
   menuItems(found, pages);
