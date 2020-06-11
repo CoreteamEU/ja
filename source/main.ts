@@ -4,8 +4,8 @@ import { footer, menuItems, social } from "./footer.js";
 const pages: Page[] = [
   new Page("index.html", "Home"),
   new Page("about.html", "About"),
-  new Page("projects.html", "Projects"),
-  new Page("jobs.html", "jobs"),
+  new Page("work.html", "Work"),
+  new Page("jobs.html", "Jobs"),
 ];
 
 const main = () => {
