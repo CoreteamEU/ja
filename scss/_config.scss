@@ -1,22 +1,21 @@
-// $primary-color: rgb(19, 2, 80);
-// $secondary-color: #c9af1e;
-$primary-color: rgb(255, 217, 160);
+$primary-color: rgb(255, 2, 80);
 $secondary-color: #052a8f;
 
-// @function primary-color() {
-//   @media (prefers-color-scheme: dark) {
-//     @return;
-//   }
-// }
-
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: light) {
   $primary-color: rgb(19, 2, 80);
   $secondary-color: #c9af1e;
 }
 
-@media (prefers-color-scheme: light) {
-  $primary-color: rgb(255, 217, 160);
-  $secondary-color: #052a8f;
+@function primary() {
+  @media screen and (prefers-color-scheme: dark) {
+  }
+}
+// $primary-color: rgb(255, 217, 160);
+// $secondary-color: #052a8f;
+
+@media screen and (prefers-color-scheme: dark) {
+  $primary-color: rgb(0, 0, 0);
+  $secondary-color: #eeeeee;
 }
 
 $home-image: url(../img/background.jpg);
