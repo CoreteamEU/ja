@@ -28,26 +28,31 @@ export const menuItems = (current, pages) => {
 export const social = () => {
     let icons = document.querySelector(".icons");
     icons.innerHTML = `
-  <a href="#!">
+  <h6>social links:</h6>
+  <a href="https://www.linkedin.com/in/jurisandersons/">
   <i class="fab fa-linkedin fa-2x"></i>
   </a>
 
-  <a href="#!">
+  <a href="https://github.com/coreteameu/">
   <i class="fab fa-github fa-2x"></i>
   </a>
 
-    <a href="http://coreteam.eu"><span class="coreteam"></span></a>
+  <a href="http://coreteam.eu"><span class="coreteam"></span></a>
 
-    <a href="#!">
-    <i class="fab fa-youtube fa-2x"></i>
-    </a>
+  <a href="https://www.youtube.com/channel/UCvb1clq_2GGFQ4NC3Hitshw">
+  <i class="fab fa-youtube fa-2x"></i>
+  </a>
 
-    <a href="#!">
-    <i class="fab fa-soundcloud fa-2x"></i>
-    </a>
+  <a href="https://soundcloud.com/misterssensors">
+  <i class="fab fa-soundcloud fa-2x"></i>
+  </a>
 
-    <a href="#!">
-    <i class="fab fa-twitter fa-2x"></i>
-    </a>`;
+  <a href="https://mrsensors.bandcamp.com/">
+  <i class="fab fa-bandcamp fa-2x"></i>
+  </a>
+
+  <a href="https://twitter.com/mrsensors">
+  <i class="fab fa-twitter fa-2x"></i>
+  </a>`;
 };
 //# sourceMappingURL=footer.js.map

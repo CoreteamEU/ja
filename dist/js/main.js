@@ -3,7 +3,8 @@ import { footer, menuItems, social } from "./footer.js";
 const pages = [
     new Page("index.html", "Home"),
     new Page("about.html", "About"),
-    new Page("work.html", "Work"),
+    new Page("portfolio.html", "Portfolio"),
+    new Page("coreteam.html", "My startup"),
     new Page("contact.html", "Contact"),
 ];
 const main = () => {
