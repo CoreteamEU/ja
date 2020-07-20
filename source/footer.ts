@@ -33,7 +33,10 @@ export const menuItems = (current: IPage, pages: IPage[]) => {
 export const social = () => {
   let icons = document.querySelector(".icons")!;
   icons.innerHTML = `
-  <h6>social links:</h6>
+  <h6>links:</h6>
+
+  <a href="http://coreteam.eu"><i class="icon icon-coreteam"></i></a>
+
   <a href="https://www.linkedin.com/in/jurisandersons/">
   <i class="fab fa-linkedin fa-2x"></i>
   </a>
@@ -42,7 +45,7 @@ export const social = () => {
   <i class="fab fa-github fa-2x"></i>
   </a>
 
-  <a href="http://coreteam.eu"><span class="coreteam"></span></a>
+
 
   <a href="https://www.youtube.com/channel/UCvb1clq_2GGFQ4NC3Hitshw">
   <i class="fab fa-youtube fa-2x"></i>

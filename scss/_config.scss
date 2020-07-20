@@ -1,15 +1,6 @@
 $primary-color: rgb(255, 222, 206);
 $secondary-color: #005194;
-
-@media screen and (prefers-color-scheme: light) {
-  $primary-color: rgb(19, 2, 80);
-  $secondary-color: #c9af1e;
-}
-
-@media screen and (prefers-color-scheme: dark) {
-  $primary-color: rgb(0, 0, 0);
-  $secondary-color: #eeeeee;
-}
+$link-color: $secondary-color;
 
 $home-image: url(../img/background.jpg);
 $show-home-image: true;

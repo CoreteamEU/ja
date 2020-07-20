@@ -35,7 +35,7 @@ h3 {
 }
 
 a {
-  color: set-text-color($primary-color);
+  color: $link-color;
   text-decoration: none;
 }
 
@@ -201,6 +201,29 @@ main {
   @extend .btn;
   background: darken($primary-color, 50);
   color: white;
+}
+
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: $secondary-color;
+  mask-size: cover;
+}
+
+.icon:hover,
+.icon:focus {
+  color: #005194;
+  transition: all 0.3s ease-out;
+  // background: $secondary-color;
+}
+
+.icon-coreteam {
+  -webkit-mask: url(../img/coreteam_small.svg);
+}
+
+i.fab {
+  color: $secondary-color;
 }
 
 // should run after initial
