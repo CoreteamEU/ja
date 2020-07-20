@@ -226,5 +226,17 @@ i.fab {
   color: $secondary-color;
 }
 
+.logo-job {
+  width: 300px;
+}
+
+.logo-job-container {
+  width: 100%;
+  background-color: white;
+  display: block;
+  padding: 10px;
+  margin: 0;
+}
+
 // should run after initial
 @import "mobile";
