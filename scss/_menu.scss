@@ -118,8 +118,8 @@
 } // eof .menu
 
 // Delay each slide menu item
-@for $x from 1 through 4 {
+@for $x from 1 through 6 {
   .nav-item:nth-child(#{$x}) {
-    transition-delay: 0.1s * $x;
+    transition-delay: 0.05s * $x;
   }
 }
