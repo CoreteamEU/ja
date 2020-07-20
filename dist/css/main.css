@@ -271,7 +271,8 @@ main {
 .icon-coreteam {
   -webkit-mask: url(../img/coreteam_small.svg); }
 
-i.fab {
+i.fab,
+i.fas {
   color: #005194; }
 
 .logo-job {
