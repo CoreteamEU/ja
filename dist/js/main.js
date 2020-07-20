@@ -4,6 +4,7 @@ const pages = [
     new Page("index.html", "Home"),
     new Page("about.html", "About"),
     new Page("portfolio.html", "Portfolio"),
+    new Page("tech.html", "Technical"),
     new Page("coreteam.html", "My startup"),
     new Page("contact.html", "Contact"),
 ];
