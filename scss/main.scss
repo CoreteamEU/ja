@@ -233,7 +233,11 @@ i.fas {
 }
 
 .logo-job {
-  width: 300px;
+  // width: 300px;
+  max-width: 300px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .logo-job-container {
