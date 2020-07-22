@@ -1,4 +1,4 @@
-# COMMANDS
+# COMMANDLINE
 
 npm run sass
 tsc -w
