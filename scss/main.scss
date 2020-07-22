@@ -241,9 +241,10 @@ i.fas {
 
 .under-construction::after {
   display: block;
+  color: red;
   // height: 2em;
-  font-size: 2em;
-  content: "This page is under heavy slow-paced development";
+  font-size: 1em;
+  content: "This page is under development.";
 }
 
 // should run after initial

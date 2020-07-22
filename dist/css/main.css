@@ -293,8 +293,9 @@ i.fas {
 
 .under-construction::after {
   display: block;
-  font-size: 2em;
-  content: "This page is under heavy slow-paced development"; }
+  color: red;
+  font-size: 1em;
+  content: "This page is under development."; }
 
 @media screen and (min-width: 1171px) {
   .projects {
