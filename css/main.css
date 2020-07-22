@@ -68,7 +68,7 @@
   .menu .nav-link {
     display: inline-block;
     position: relative;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
@@ -327,6 +327,6 @@ i.fas {
 
 @media screen and (max-width: 500px) {
   main h1 {
-    margin-top: 10vh; }
+    margin-top: 2vh; }
   .projects {
     grid-template-columns: 1fr; } }
