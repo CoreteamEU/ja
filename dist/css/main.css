@@ -99,6 +99,9 @@
 .nav-item:nth-child(7) {
   transition-delay: 0.35s; }
 
+.nav-item:nth-child(8) {
+  transition-delay: 0.4s; }
+
 * {
   box-sizing: border-box; }
 
@@ -287,6 +290,11 @@ i.fas {
   display: block;
   padding: 10px;
   margin: 0; }
+
+.under-construction::after {
+  display: block;
+  font-size: 2em;
+  content: "This page is under heavy slow-paced development"; }
 
 @media screen and (min-width: 1171px) {
   .projects {

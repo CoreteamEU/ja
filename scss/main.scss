@@ -239,5 +239,12 @@ i.fas {
   margin: 0;
 }
 
+.under-construction::after {
+  display: block;
+  // height: 2em;
+  font-size: 2em;
+  content: "This page is under heavy slow-paced development";
+}
+
 // should run after initial
 @import "mobile";
