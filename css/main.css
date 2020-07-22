@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #ffcdb5;
+    background: #d4e1af;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.3s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #ffdece;
+    background: #dee8c2;
     transform: translate3d(0, 100%, 0);
     transition: all 0.3s ease-out; }
     .menu-branding.show {
@@ -108,7 +108,7 @@
 body {
   width: 100%;
   color: #4b4b4b;
-  background-color: #ffdece;
+  background-color: #dee8c2;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -129,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(255, 229, 216, 0.5); }
+    background: rgba(226, 235, 201, 0.5); }
 
 a {
   color: #005194;
@@ -189,7 +189,7 @@ main {
     grid-area: bio;
     font-size: 1rem; }
   .about-info .job {
-    background: #ffefe8;
+    background: #e8efd5;
     padding: 0.5rem;
     border-bottom: #005194 5px solid; }
   .about-info .job-1 {
@@ -202,7 +202,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #ffcdb5; }
+  background: #d4e1af; }
 
 .projects {
   display: grid;
@@ -249,7 +249,7 @@ main {
   color: #333; }
 
 .btn-dark {
-  background: #ce4300;
+  background: #687c2f;
   color: white; }
 
 .icon {
@@ -286,7 +286,7 @@ i.fas {
 
 .under-construction::after {
   display: block;
-  color: red;
+  color: #a50c2f;
   font-size: 1em;
   content: "This page is under development."; }
 
