@@ -1,12 +1,21 @@
+export const contactsLinks = () => {
+    const contacts = document.querySelector("#contacts");
+    if (contacts != null) {
+        contacts.innerHTML = `      
+        <a href="mailto:JurimAndersonam@gmail.com">JurimAndersonam@gmail.com</a>
+      |
+        <span class="text-secondary">Phone:</span>
+        <a href="tel:+37129177669">+37129177669</a>
+      `;
+    }
+};
 export const footer = () => {
-    console.log("Footer run");
-    //footerDiv.textContent = "No copyrights " + new Date().getFullYear();
     const footerDiv = document.querySelector("#main-footer");
     if (footerDiv != null) {
         // console.log("Found footer");
         footerDiv.innerHTML =
-            "<a href='https://jurisandersons.com'>jurisandersons.com</a> | " +
-                new Date().getFullYear();
+            "<span id='contacts'></span> | " + new Date().getFullYear();
+        contactsLinks();
     }
 };
 export const menuItems = (current, pages) => {
