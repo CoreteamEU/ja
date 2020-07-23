@@ -11,6 +11,26 @@ const pages: Page[] = [
   new Page("contact.html", "Contact"),
 ];
 
+const setupCollapsibles = () => {
+  var coll: HTMLCollectionOf<HTMLElement> = document.getElementsByClassName(
+    "collapsible"
+  ) as HTMLCollectionOf<HTMLElement>;
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      var slf: Element = this!;
+      slf.classList.toggle("active");
+      var content = slf.nextElementSibling as HTMLElement;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+};
+
 const main = () => {
   // var path = window.location.pathname;
   // var pageURL = path.split("/").pop()!;
@@ -32,6 +52,7 @@ const main = () => {
   var showMenu = false;
 
   console.log("--- menuBtn:", menuBtn);
+
   function toggleMenu() {
     console.log("--- menu clicked");
     if (showMenu) {
@@ -56,6 +77,7 @@ const main = () => {
   // execution
   menuBtn.addEventListener("click", toggleMenu);
   footer();
+  setupCollapsibles();
 };
 
 main();

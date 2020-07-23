@@ -9,6 +9,23 @@ const pages = [
     new Page("coreteam.html", "My startup"),
     new Page("contact.html", "Contact"),
 ];
+const setupCollapsibles = () => {
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            var slf = this;
+            slf.classList.toggle("active");
+            var content = slf.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            }
+            else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+};
 const main = () => {
     // var path = window.location.pathname;
     // var pageURL = path.split("/").pop()!;
@@ -50,6 +67,7 @@ const main = () => {
     // execution
     menuBtn.addEventListener("click", toggleMenu);
     footer();
+    setupCollapsibles();
 };
 main();
 //# sourceMappingURL=main.js.map
