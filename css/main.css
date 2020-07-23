@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #d4e1af;
+    background: #e3f3b9;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.3s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #dee8c2;
+    background: #ecf7cf;
     transform: translate3d(0, 100%, 0);
     transition: all 0.3s ease-out; }
     .menu-branding.show {
@@ -108,7 +108,7 @@
 body {
   width: 100%;
   color: #4b4b4b;
-  background-color: #dee8c2;
+  background-color: #ecf7cf;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -129,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(226, 235, 201, 0.5); }
+    background: rgba(239, 248, 216, 0.5); }
 
 a {
   color: #005194;
@@ -190,7 +190,7 @@ main {
     grid-area: bio;
     font-size: 1rem; }
   .about-info .job {
-    background: #e8efd5;
+    background: #f5fbe5;
     padding: 0.5rem;
     border-bottom: #005194 5px solid; }
   .about-info .job-1 {
@@ -203,7 +203,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #d4e1af; }
+  background: #e3f3b9; }
 
 .projects {
   display: grid;
@@ -254,7 +254,7 @@ main {
   color: #333; }
 
 .btn-dark {
-  background: #687c2f;
+  background: #83ab1c;
   color: white; }
 
 .icon {
@@ -294,6 +294,38 @@ i.fas {
   color: #a50c2f;
   font-size: 1em;
   content: "This page is under development."; }
+
+.collapsible {
+  background-color: white;
+  color: #eeeeee;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.active,
+.collapsible:hover {
+  background-color: #005194; }
+
+.collapsible:after {
+  content: "\002B";
+  color: #eeeeee;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px; }
+
+.active:after {
+  content: "\2212"; }
+
+.collapsible-content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #ecf7cf; }
 
 @media screen and (min-width: 1171px) {
   .projects {
