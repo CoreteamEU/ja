@@ -7,6 +7,7 @@ const pages = [
     new Page("tech.html", "Technical"),
     new Page("music.html", "Musical"),
     new Page("coreteam.html", "My startup"),
+    new Page("cv.html", "CV"),
     new Page("contact.html", "Contact"),
 ];
 const setupCollapsibles = () => {
