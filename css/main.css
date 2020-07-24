@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #e3f3b9;
+    background: #faffbe;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.3s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #ecf7cf;
+    background: #fcffd7;
     transform: translate3d(0, 100%, 0);
     transition: all 0.3s ease-out; }
     .menu-branding.show {
@@ -102,13 +102,16 @@
 .nav-item:nth-child(8) {
   transition-delay: 0.4s; }
 
+.nav-item:nth-child(9) {
+  transition-delay: 0.45s; }
+
 * {
   box-sizing: border-box; }
 
 body {
   width: 100%;
   color: #4b4b4b;
-  background-color: #ecf7cf;
+  background-color: #fcffd7;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -129,7 +132,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(239, 248, 216, 0.5); }
+    background: rgba(253, 255, 225, 0.5); }
 
 a {
   color: #005194;
@@ -190,7 +193,7 @@ main {
     grid-area: bio;
     font-size: 1rem; }
   .about-info .job {
-    background: #f5fbe5;
+    background: #fefff1;
     padding: 0.5rem;
     border-bottom: #005194 5px solid; }
   .about-info .job-1 {
@@ -203,7 +206,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #e3f3b9; }
+  background: #faffbe; }
 
 .projects {
   display: grid;
@@ -254,7 +257,7 @@ main {
   color: #333; }
 
 .btn-dark {
-  background: #83ab1c;
+  background: #c7d700;
   color: white; }
 
 .icon {
@@ -325,7 +328,7 @@ i.fas {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #ecf7cf; }
+  background-color: #fcffd7; }
 
 @media screen and (min-width: 1171px) {
   .projects {
