@@ -73,5 +73,11 @@ export const social = () => {
 
   <a href="https://twitter.com/mrsensors">
   <i class="fab fa-twitter fa-2x"></i>
-  </a>`;
+  </a>
+
+  <a href="https://instagram.com/coreteameu">
+  <i class="fab fa-instagram fa-2x"></i>
+  </a>
+  
+  `;
 };
