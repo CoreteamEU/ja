@@ -344,17 +344,16 @@ i.fas {
   ul.menu-nav,
   div.menu-branding {
     float: none;
-    width: 100%;
-    min-height: 0; }
+    width: 100%; }
     ul.menu-nav.show,
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 75vh;
+    height: 80vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
-    height: 25vh;
+    height: 20vh;
     transform: translate3d(-100%, 0, 0); }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
