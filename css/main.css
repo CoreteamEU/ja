@@ -102,9 +102,6 @@
 .nav-item:nth-child(8) {
   transition-delay: 0.4s; }
 
-.nav-item:nth-child(9) {
-  transition-delay: 0.45s; }
-
 * {
   box-sizing: border-box; }
 
