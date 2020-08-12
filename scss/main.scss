@@ -120,6 +120,9 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1rem;
+    li {
+      text-align: left;
+    }
   }
 
   .job {
@@ -127,7 +130,8 @@ main {
     border-radius: 5%;
     background: white;
     padding: 0.5rem;
-    border-bottom: $secondary-color 5px solid;
+    margin: 0.5rem;
+    // border-bottom: $secondary-color 5px solid;
   }
 
   .job-1 {

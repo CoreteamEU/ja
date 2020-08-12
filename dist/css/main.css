@@ -189,11 +189,13 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1rem; }
+    .about-info .bio li {
+      text-align: left; }
   .about-info .job {
     border-radius: 5%;
     background: white;
     padding: 0.5rem;
-    border-bottom: #005194 5px solid; }
+    margin: 0.5rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
