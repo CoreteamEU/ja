@@ -2,9 +2,19 @@
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
+  .about-info {
+    .bio-image {
+      margin: inherit;
+    }
+  }
 }
 
 @include mediaLg {
+  .about-info {
+    .bio-image {
+      margin: inherit;
+    }
+  }
 }
 
 // laptops
@@ -50,6 +60,9 @@
   }
 
   .about-info {
+    .bio-image {
+      margin: auto;
+    }
     grid-template-areas:
       "bioimage"
       "bio"
