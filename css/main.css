@@ -329,12 +329,6 @@ i.fas {
   transition: max-height 0.2s ease-out;
   background-color: #fcffd7; }
 
-p::before {
-  content: url(//unsplash.it/100/100);
-  margin: 1rem;
-  width: 5px;
-  height: 5px; }
-
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); }
