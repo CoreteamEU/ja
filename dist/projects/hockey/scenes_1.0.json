@@ -1,0 +1,37 @@
+   {
+     "version": 2,
+     "loadID": "0011",
+     "scenes": [
+       {
+         "id" : "0012",
+         "description": "3 moving holes in the middle",
+         "maxSeconds": 30,
+         "holes": [
+          { "position": [0,100],
+            "duration": 0.5,
+            "direction": 1,
+            "percentage": 20             
+          },
+          { "position": [-100,100],
+            "duration": 0.3,
+            "direction": 0,
+            "percentage": 25
+          },
+          { "position": [100,100],
+            "duration": 0.3,
+            "direction": 0,
+            "percentage": 25           
+          },
+          
+          { "position": [250,-350] },
+          { "position": [150,-390] },
+          { "position": [-150,-390] },
+          { "position": [-250,-350] },    
+          { "position": [-300, 200] },    
+          { "position": [-200, 350] },    
+          { "position": [300, 200] },    
+          { "position": [200, 350] },    
+         ]
+       }				
+     ]
+   }
