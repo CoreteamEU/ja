@@ -107,8 +107,8 @@
 
 body {
   width: 100%;
-  color: #4b4b4b;
-  background-color: #fcffd7;
+  color: #d7d7d7;
+  background-color: #260a0a;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -129,26 +129,28 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(253, 255, 225, 0.5); }
+    background: rgba(255, 255, 255, 0.1); }
 
 a {
-  color: #005194;
+  color: #ffbb00;
   text-decoration: none; }
-
+a:visited {
+  /* color: #d79e00; */
+  text-decoration: none;
+}
 header {
   position: fixed;
   z-index: 2;
   width: 100%; }
 
 .text-secondary {
-  color: #005194; }
+  color: #59a6e0; }
 
 .icons {
   margin-top: 1rem; }
   .icons a {
     padding: 0.4rem; }
     .icons a:hover {
-      color: #005194;
       transition: all 0.3s ease-out; }
 
 main {
@@ -256,19 +258,19 @@ main {
   color: #333; }
 
 .btn-dark {
-  background: #c7d700;
+  background: #ffbb00;
   color: white; }
 
 .icon {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: #005194;
+  background: #ffbb00;
   mask-size: cover; }
 
 .icon:hover,
 .icon:focus {
-  color: #005194;
+  color: #d7d7d7;
   transition: all 0.3s ease-out; }
 
 .icon-coreteam {
@@ -276,7 +278,7 @@ main {
 
 i.fab,
 i.fas {
-  color: #005194; }
+  color: ##d7d7d7; }
 
 .logo-job {
   max-width: 300px;
@@ -294,8 +296,8 @@ i.fas {
 .under-construction::after {
   display: block;
   color: #a50c2f;
-  font-size: 1em;
-  content: "This page is under development."; }
+  font-size: 2em;
+  content: "Under development"; }
 
 .collapsible {
   background-color: white;

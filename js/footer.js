@@ -39,9 +39,7 @@ export const menuItems = (current, pages) => {
 export const social = () => {
     let icons = document.querySelector(".icons");
     icons.innerHTML = `
-  <h6>links:</h6>
-
-  <a href="http://coreteam.eu"><i class="icon icon-coreteam"></i></a>
+  <h5>Links:</h5>
 
   <a href="https://www.linkedin.com/in/jurisandersons/">
   <i class="fab fa-linkedin fa-2x"></i>
@@ -50,8 +48,6 @@ export const social = () => {
   <a href="https://github.com/coreteameu/">
   <i class="fab fa-github fa-2x"></i>
   </a>
-
-
 
   <a href="https://www.youtube.com/channel/UCvb1clq_2GGFQ4NC3Hitshw">
   <i class="fab fa-youtube fa-2x"></i>
@@ -73,6 +69,7 @@ export const social = () => {
   <i class="fab fa-instagram fa-2x"></i>
   </a>
   
+  <a href="http://coreteam.eu"><i class="icon icon-coreteam"></i></a>  
   `;
 };
 //# sourceMappingURL=footer.js.map
