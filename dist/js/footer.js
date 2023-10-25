@@ -40,36 +40,34 @@ export const social = () => {
     let icons = document.querySelector(".icons");
     icons.innerHTML = `
   <h5>Links:</h5>
-
+<div>
+<div>
   <a href="https://www.linkedin.com/in/jurisandersons/">
   <i class="fab fa-linkedin fa-2x"></i>
   </a>
+  <a href="https://www.linkedin.com/in/jurisandersons/">Linkedin</a>
+</div>
 
-  <a href="https://github.com/coreteameu/">
-  <i class="fab fa-github fa-2x"></i>
-  </a>
+<div>
+  <a href="http://coreteam.eu"><i class="icon icon-coreteam"></i></a>  
+  <a href="http://coreteam.eu">Coreteam</a>  
+</div>
 
-  <a href="https://www.youtube.com/channel/UCvb1clq_2GGFQ4NC3Hitshw">
-  <i class="fab fa-youtube fa-2x"></i>
-  </a>
-
-  <a href="https://soundcloud.com/misterssensors">
-  <i class="fab fa-soundcloud fa-2x"></i>
-  </a>
-
+<div>  
   <a href="https://mrsensors.bandcamp.com/">
   <i class="fab fa-bandcamp fa-2x"></i>
   </a>
+  <a href="https://mrsensors.bandcamp.com/">Bandcamp</a>  
+</div>
 
+<div>  
   <a href="https://twitter.com/mrsensors">
   <i class="fab fa-twitter fa-2x"></i>
   </a>
+  <a href="https://twitter.com/mrsensors">Twitter</a>  
+</div>
 
-  <a href="https://instagram.com/coreteameu">
-  <i class="fab fa-instagram fa-2x"></i>
-  </a>
-  
-  <a href="http://coreteam.eu"><i class="icon icon-coreteam"></i></a>  
+</div>
   `;
 };
 //# sourceMappingURL=footer.js.map
