@@ -40,27 +40,27 @@ export const social = () => {
     let icons = document.querySelector(".icons");
     icons.innerHTML = `
   <h5>Links:</h5>
-<div>
-<div>
+<div class="container">
+<div class="row">
   <a href="https://www.linkedin.com/in/jurisandersons/">
   <i class="fab fa-linkedin fa-2x"></i>
   </a>
   <a href="https://www.linkedin.com/in/jurisandersons/">Linkedin</a>
 </div>
 
-<div>
+<div class="row">
   <a href="http://coreteam.eu"><i class="icon icon-coreteam"></i></a>  
   <a href="http://coreteam.eu">Coreteam</a>  
 </div>
 
-<div>  
+<div class="row">  
   <a href="https://mrsensors.bandcamp.com/">
   <i class="fab fa-bandcamp fa-2x"></i>
   </a>
   <a href="https://mrsensors.bandcamp.com/">Bandcamp</a>  
 </div>
 
-<div>  
+<div class="row">  
   <a href="https://twitter.com/mrsensors">
   <i class="fab fa-twitter fa-2x"></i>
   </a>
