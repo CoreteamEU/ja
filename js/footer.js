@@ -60,13 +60,6 @@ export const social = () => {
   <a href="https://mrsensors.bandcamp.com/">Bandcamp</a>  
 </div>
 
-<div class="row">  
-  <a href="https://twitter.com/mrsensors">
-  <i class="fab fa-twitter fa-2x"></i>
-  </a>
-  <a href="https://twitter.com/mrsensors">Twitter</a>  
-</div>
-
 </div>
   `;
 };
