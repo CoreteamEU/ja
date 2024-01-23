@@ -71,10 +71,6 @@ export const social = () => {
   <i class="fab fa-bandcamp fa-2x"></i>
   </a>
 
-  <a href="https://twitter.com/mrsensors">
-  <i class="fab fa-twitter fa-2x"></i>
-  </a>
-
   <a href="https://instagram.com/coreteameu">
   <i class="fab fa-instagram fa-2x"></i>
   </a>
