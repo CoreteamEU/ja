@@ -1,10 +1,26 @@
 {
-    "asto": {
-    },
+    "asto": [
+        {
+            "lesson": "01",
+            "lyrics": [ 
+                {
+                    "index": 1,
+                    "title": "Test asto",
+                    "lyric": [
+                        "Asto test 1",
+                        "Asto test line 2,"
+                    ]
+                }
+            ]            
+        }    
+    ],
 
-    "ronis": {
-        "05": { 
-            "1" : {
+    "ronis": [
+        {
+        "lesson": "05",
+        "lyrics": [ 
+            {
+                "index": 1,
                 "title": "Mazgāties",
                 "lyric": [
                     "KATRU rītu vakaru, mazgāties man patīk!",
@@ -17,10 +33,14 @@
                     "UN, kad esmu tīrs un balts, tad var atnākt miedziņš salds!"                    
                 ]
             }
+        ]
         },
 
-        "09": { 
-            "1" : {
+        {
+        "lesson": "09", 
+        "lyrics": [
+            {
+                "index": 1,
                 "title": "Šūpļa dziesma",
                 "lyric": [
                     "Kucēniņi- ņiku, ņeku",
@@ -31,10 +51,14 @@
                     "Vista teica- kur, kur, kur?"
                 ]
             }
+        ]
         },
 
-        "10": { 
-            "1" : {
+        {
+        "lesson": "10",
+        "lyrics": [
+            {
+                "index": 1,
                 "title": "Šūpļa dziesma",
                 "lyric": [
                     "Kur pelīte tu tecēji",
@@ -48,7 +72,8 @@
                     "Tad gulēsi saldu miegu."
                 ]
             },
-            "2" : {
+            {
+                "index": 2,
                 "title": "Atveicināšanās",
                 "lyric": [
                     "Kad jau laiks uz dusu doties,",
@@ -59,6 +84,7 @@
                     "Saldā miegā aizmiegu"
                 ]
             }
+            ]
         }
-    }    
+    ]
 }
