@@ -3,6 +3,22 @@
     },
 
     "ronis": {
+        "05": { 
+            "1" : {
+                "title": "Mazgāties",
+                "lyric": [
+                    "KATRU rītu vakaru, mazgāties man patīk!",
+                    "SEJIŅU mēs mazgājam,",
+                    "VAIDZIŅUS mēs skalojam,",
+                    "SLAUKĀM mīļās actiņas,",
+                    "TĪRĀM mazās austiņas.",
+                    "KĀJIŅAS mēs plunčājam,",
+                    "ZOBIŅUS mēs pucējam.",
+                    "UN, kad esmu tīrs un balts, tad var atnākt miedziņš salds!"                    
+                ]
+            }
+        },
+
         "09": { 
             "1" : {
                 "title": "Šūpļa dziesma",
