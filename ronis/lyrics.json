@@ -1,0 +1,48 @@
+{
+    "asto": {
+    },
+
+    "ronis": {
+        "09": { 
+            "1" : {
+                "title": "Šūpļa dziesma",
+                "lyric": [
+                    "Kucēniņi- ņiku, ņeku",
+                    "Kazlēniņi- miku, meku",
+                    "Kaķīts mala- murrā, murr,",
+                    "Pīlīt gāja- peku, peku",
+                    "Gailīts sauca- teku, teku",
+                    "Vista teica- kur, kur, kur?"
+                ]
+            }
+        },
+
+        "10": { 
+            "1" : {
+                "title": "Šūpļa dziesma",
+                "lyric": [
+                    "Kur pelīte tu tecēji",
+                    "Ar to liepu vācelīti?",
+                    "Ciemā teku miegu nest",
+                    "Mazajam bērniņam.",
+                    "",
+                    "Migu migu vien' actiņa,",
+                    "Migu migu otr' actiņa,",
+                    "Kad aizmiga abas divas,",
+                    "Tad gulēsi saldu miegu."
+                ]
+            },
+            "2" : {
+                "title": "Atveicināšanās",
+                "lyric": [
+                    "Kad jau laiks uz dusu doties,",
+                    "Manas rokas jautri māj -",
+                    "Kreisā roka, labā roka",
+                    "Visiem pasaka: \"Attā!\"",
+                    "Gaisa buču nosūtu,",
+                    "Saldā miegā aizmiegu"
+                ]
+            }
+        }
+    }    
+}
