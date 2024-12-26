@@ -17,6 +17,35 @@
 
     "ronis": [
         {
+            "lesson": "02",
+            "lyrics": [ 
+                {
+                    "index": 1,
+                    "title": "Atklājējs",
+                    "lyric": [
+                        "Pasauli es atklāt steidzos,",
+                        "Noslēpumiem pilna tā.",
+                        "Kā lai visu uzzinu, ieraugu un saprotu?",
+                        "Klausos, skatos, aptaustu,",
+                        "Nu jau kaut ko nojaušu.",
+                        "Bet, ja vēl ko nezinu, mutītē tad ielieku!",
+                        "Tikai tā sev atklāju, pasauli šo brīnišķo."
+                    ]
+                },
+                {
+                    "index": 2,
+                    "title": "Pieskaršanās",
+                    "lyric": [
+                        "Tipu, tapu kaķīts nāk,",
+                        "Skribu, skrabu skrāpēt sāk,",
+                        "Paiju, paiju paijāt māk,",
+                        "Tipu, tapu mājās nāk."
+                    ]
+                }
+            ]
+        },        
+
+        {
         "lesson": "05",
         "lyrics": [ 
             {
@@ -85,6 +114,35 @@
                 ]
             }
             ]
-        }
+        },
+
+        {
+            "lesson": "15",
+            "lyrics": [ 
+                {
+                    "index": 1,
+                    "title": "Atklājējs",
+                    "lyric": [
+                        "Pasauli es atklāt steidzos,",
+                        "Noslēpumiem pilna tā.",
+                        "Kā lai visu uzzinu, ieraugu un saprotu?",
+                        "Klausos, skatos, aptaustu,",
+                        "Nu jau kaut ko nojaušu.",
+                        "Bet, ja vēl ko nezinu, mutītē tad ielieku!",
+                        "Tikai tā sev atklāju, pasauli šo brīnišķo."
+                    ]
+                },
+                {
+                    "index": 2,
+                    "title": "Pieskaršanās",
+                    "lyric": [
+                        "Tipu, tapu kaķīts nāk,",
+                        "Skribu, skrabu skrāpēt sāk,",
+                        "Paiju, paiju paijāt māk,",
+                        "Tipu, tapu mājās nāk."
+                    ]
+                }
+            ]
+        }       
     ]
 }
