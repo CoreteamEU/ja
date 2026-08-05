@@ -1,22 +1,24 @@
-# jurisandersons.com
+# jurisandersons.eu
 
 A single static page. Plain HTML and CSS — no JavaScript of its own, no build
 step, no dependencies, no `node_modules`.
 
 ## Layout
 
-Everything served lives in `dist/`:
+Everything served lives in `docs/`. GitHub Pages is configured to serve this
+folder directly from `master`, so there is no separate deploy step — a push to
+`master` is the deployment.
 
-- `dist/index.html` — the whole site.
-- `dist/css/main.css` — the whole stylesheet.
-- `dist/img/` — portrait and the Coreteam icon (used as a CSS mask).
-- `dist/CNAME` — custom domain for GitHub Pages.
-- `dist/app-ads.txt` — ad-network verification.
+- `docs/index.html` — the whole site.
+- `docs/css/main.css` — the whole stylesheet.
+- `docs/img/` — portrait and the Coreteam icon (used as a CSS mask).
+- `docs/CNAME` — custom domain for GitHub Pages.
+- `docs/app-ads.txt` — ad-network verification.
 
 Not linked from the front page, kept because they are reachable by direct URL:
 
-- `dist/cv.html` — self-contained CV, carries its own `<style>`.
-- `dist/privacy.html`, `dist/morebands/privacy.html` — privacy policies linked
+- `docs/cv.html` — self-contained CV, carries its own `<style>`.
+- `docs/privacy.html`, `docs/morebands/privacy.html` — privacy policies linked
   from App Store listings. Do not delete without checking those listings first.
 
 `_design/` holds Affinity source files for the logos; it is not deployed.
@@ -27,17 +29,19 @@ link text stays.
 
 ## Editing
 
-Open `dist/index.html` and edit it. To view it, either open the file directly
+Open `docs/index.html` and edit it. To preview, either open the file directly
 or serve the folder:
 
 ```bash
-python3 -m http.server 8000 --directory dist
+python3 -m http.server 8000 --directory docs
 ```
 
 ## Deploying
 
-Publishes `dist/` to the `gh-pages` branch:
+There isn't a deploy command. Commit and push to `master`:
 
 ```bash
-npx gh-pages -d dist
+git push
 ```
+
+GitHub Pages picks up `docs/` from `master` automatically.
