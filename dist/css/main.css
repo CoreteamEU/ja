@@ -75,13 +75,6 @@ main#home h2 {
   border: solid 2px #005194;
 }
 
-.under-construction::after {
-  display: block;
-  color: #a50c2f;
-  font-size: 2em;
-  content: "Under development";
-}
-
 .links {
   margin-top: 2rem;
 }
