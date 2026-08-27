@@ -12,6 +12,9 @@ folder directly from `master`, so there is no separate deploy step — a push to
 - `docs/index.html` — the whole site.
 - `docs/css/main.css` — the whole stylesheet.
 - `docs/img/` — portrait and the Coreteam icon (used as a CSS mask).
+- `docs/morebands/index.html` — the More Bands product landing page.
+- `docs/morebands/morebands.css` — styles used only by the More Bands page.
+- `docs/morebands/img/` — optimized More Bands artwork and gameplay images.
 - `docs/CNAME` — custom domain for GitHub Pages.
 - `docs/app-ads.txt` — ad-network verification.
 
